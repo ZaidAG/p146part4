@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Animating Shapes
+        </title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+<body>
+    <a-scene>
+        <a-sky color="#EBEBEB">
+            <a-entity>
+                <a-sphere position="0 -5 0" radius="5" color="pink"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="0 0 0" radius="9" color="blue"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="0 0 0" radius="8" color="white"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="0 1.5 0" radius="1" color="red"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-circle position="0.63 2 0" radius="3" color="white" ></a-circle>
+            </a-entity>
+            <a-entity>
+                <a-circle position="0.63 2 0.9" radius="1" color="black" ></a-circle>
+            </a-entity>
+            <a-entity>
+                <a-circle position="-3 2 0" radius="3" color="white"></a-circle>
+            </a-entity>
+            <a-entity>
+                <a-circle position="-3 2 0" radius="1" color="black" ></a-circle>
+            </a-entity>
+            <a-entity>
+                <a-box position="0 10 0" length="80" color="yellow"></a-box>
+                <a-box position="0 11 0" width="8" color="yellow" animation="property: position; from: -3 11 0; to: 3 11 0; dir:alternate; loop: true; dur: 1000"></a-box>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="0 -35 -1" radius="30" color="blue"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="30 -35 -1" radius="12" color="blue"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="45 -35 -1" radius="10" color="white"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="-30 -35 -1" radius="12" color="blue"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="-45 -35 -1" radius="10" color="white"></a-sphere>
+            </a-entity>
+            <a-entity>
+                <a-sphere position="30 -135 -1" radius="20" color="blue"></a-sphere>
+            </a-entity>
+        <a-camera look-controls-enabled wasd-controls-enabled position="0 5 15"> </a-camera
+    </a-scene>
+</body>
+</html>
